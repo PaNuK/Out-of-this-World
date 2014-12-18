@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		AF1322851A41B6A0003A7427 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1322841A41B6A0003A7427 /* main.m */; };
 		AF1322881A41B6A0003A7427 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1322871A41B6A0003A7427 /* AppDelegate.m */; };
-		AF13228B1A41B6A0003A7427 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF13228A1A41B6A0003A7427 /* ViewController.m */; };
 		AF13228E1A41B6A0003A7427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF13228C1A41B6A0003A7427 /* Main.storyboard */; };
 		AF1322901A41B6A0003A7427 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF13228F1A41B6A0003A7427 /* Images.xcassets */; };
 		AF1322931A41B6A0003A7427 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF1322911A41B6A0003A7427 /* LaunchScreen.xib */; };
 		AF13229F1A41B6A0003A7427 /* Out_of_this_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF13229E1A41B6A0003A7427 /* Out_of_this_WorldTests.m */; };
+		AF1322AA1A41B7A4003A7427 /* OuterSpaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1322A91A41B7A4003A7427 /* OuterSpaceTableViewController.m */; };
+		AF1322AD1A425561003A7427 /* AstronomicalData.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1322AC1A425561003A7427 /* AstronomicalData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		AF1322841A41B6A0003A7427 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AF1322861A41B6A0003A7427 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AF1322871A41B6A0003A7427 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AF1322891A41B6A0003A7427 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AF13228A1A41B6A0003A7427 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AF13228D1A41B6A0003A7427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF13228F1A41B6A0003A7427 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AF1322921A41B6A0003A7427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AF1322981A41B6A0003A7427 /* Out of this WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Out of this WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF13229D1A41B6A0003A7427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF13229E1A41B6A0003A7427 /* Out_of_this_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Out_of_this_WorldTests.m; sourceTree = "<group>"; };
+		AF1322A81A41B7A4003A7427 /* OuterSpaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OuterSpaceTableViewController.h; sourceTree = "<group>"; };
+		AF1322A91A41B7A4003A7427 /* OuterSpaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OuterSpaceTableViewController.m; sourceTree = "<group>"; };
+		AF1322AB1A425561003A7427 /* AstronomicalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalData.h; sourceTree = "<group>"; };
+		AF1322AC1A425561003A7427 /* AstronomicalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstronomicalData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +86,9 @@
 			children = (
 				AF1322861A41B6A0003A7427 /* AppDelegate.h */,
 				AF1322871A41B6A0003A7427 /* AppDelegate.m */,
-				AF1322891A41B6A0003A7427 /* ViewController.h */,
-				AF13228A1A41B6A0003A7427 /* ViewController.m */,
 				AF13228C1A41B6A0003A7427 /* Main.storyboard */,
+				AF1322A81A41B7A4003A7427 /* OuterSpaceTableViewController.h */,
+				AF1322A91A41B7A4003A7427 /* OuterSpaceTableViewController.m */,
 				AF13228F1A41B6A0003A7427 /* Images.xcassets */,
 				AF1322911A41B6A0003A7427 /* LaunchScreen.xib */,
 				AF1322821A41B6A0003A7427 /* Supporting Files */,
@@ -96,6 +99,8 @@
 		AF1322821A41B6A0003A7427 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AF1322AB1A425561003A7427 /* AstronomicalData.h */,
+				AF1322AC1A425561003A7427 /* AstronomicalData.m */,
 				AF1322831A41B6A0003A7427 /* Info.plist */,
 				AF1322841A41B6A0003A7427 /* main.m */,
 			);
@@ -219,9 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF13228B1A41B6A0003A7427 /* ViewController.m in Sources */,
+				AF1322AA1A41B7A4003A7427 /* OuterSpaceTableViewController.m in Sources */,
 				AF1322881A41B6A0003A7427 /* AppDelegate.m in Sources */,
 				AF1322851A41B6A0003A7427 /* main.m in Sources */,
+				AF1322AD1A425561003A7427 /* AstronomicalData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +418,7 @@
 				AF1322A41A41B6A0003A7427 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF1322A51A41B6A0003A7427 /* Build configuration list for PBXNativeTarget "Out of this WorldTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				AF1322A71A41B6A0003A7427 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
