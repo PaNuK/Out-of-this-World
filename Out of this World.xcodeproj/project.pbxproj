@@ -15,6 +15,17 @@
 		AF13229F1A41B6A0003A7427 /* Out_of_this_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF13229E1A41B6A0003A7427 /* Out_of_this_WorldTests.m */; };
 		AF1322AA1A41B7A4003A7427 /* OuterSpaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1322A91A41B7A4003A7427 /* OuterSpaceTableViewController.m */; };
 		AF1322AD1A425561003A7427 /* AstronomicalData.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1322AC1A425561003A7427 /* AstronomicalData.m */; };
+		AF1323201A430BE5003A7427 /* Earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF1323161A430BE5003A7427 /* Earth.jpg */; };
+		AF1323211A430BE5003A7427 /* EinsteinRing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF1323171A430BE5003A7427 /* EinsteinRing.jpg */; };
+		AF1323221A430BE5003A7427 /* Jupiter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF1323181A430BE5003A7427 /* Jupiter.jpg */; };
+		AF1323231A430BE5003A7427 /* Mars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF1323191A430BE5003A7427 /* Mars.jpg */; };
+		AF1323241A430BE5003A7427 /* Mercury.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF13231A1A430BE5003A7427 /* Mercury.jpg */; };
+		AF1323251A430BE5003A7427 /* Neptune.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF13231B1A430BE5003A7427 /* Neptune.jpg */; };
+		AF1323261A430BE5003A7427 /* Orion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF13231C1A430BE5003A7427 /* Orion.jpg */; };
+		AF1323271A430BE5003A7427 /* Saturn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF13231D1A430BE5003A7427 /* Saturn.jpg */; };
+		AF1323281A430BE5003A7427 /* Uranus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF13231E1A430BE5003A7427 /* Uranus.jpg */; };
+		AF1323291A430BE5003A7427 /* Venus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF13231F1A430BE5003A7427 /* Venus.jpg */; };
+		AF13232C1A430C0E003A7427 /* SpaceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AF13232B1A430C0E003A7427 /* SpaceObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +54,18 @@
 		AF1322A91A41B7A4003A7427 /* OuterSpaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OuterSpaceTableViewController.m; sourceTree = "<group>"; };
 		AF1322AB1A425561003A7427 /* AstronomicalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalData.h; sourceTree = "<group>"; };
 		AF1322AC1A425561003A7427 /* AstronomicalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstronomicalData.m; sourceTree = "<group>"; };
+		AF1323161A430BE5003A7427 /* Earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth.jpg; sourceTree = "<group>"; };
+		AF1323171A430BE5003A7427 /* EinsteinRing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EinsteinRing.jpg; sourceTree = "<group>"; };
+		AF1323181A430BE5003A7427 /* Jupiter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jupiter.jpg; sourceTree = "<group>"; };
+		AF1323191A430BE5003A7427 /* Mars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mars.jpg; sourceTree = "<group>"; };
+		AF13231A1A430BE5003A7427 /* Mercury.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mercury.jpg; sourceTree = "<group>"; };
+		AF13231B1A430BE5003A7427 /* Neptune.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Neptune.jpg; sourceTree = "<group>"; };
+		AF13231C1A430BE5003A7427 /* Orion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Orion.jpg; sourceTree = "<group>"; };
+		AF13231D1A430BE5003A7427 /* Saturn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saturn.jpg; sourceTree = "<group>"; };
+		AF13231E1A430BE5003A7427 /* Uranus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Uranus.jpg; sourceTree = "<group>"; };
+		AF13231F1A430BE5003A7427 /* Venus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Venus.jpg; sourceTree = "<group>"; };
+		AF13232A1A430C0E003A7427 /* SpaceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceObject.h; sourceTree = "<group>"; };
+		AF13232B1A430C0E003A7427 /* SpaceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +112,8 @@
 				AF13228C1A41B6A0003A7427 /* Main.storyboard */,
 				AF1322A81A41B7A4003A7427 /* OuterSpaceTableViewController.h */,
 				AF1322A91A41B7A4003A7427 /* OuterSpaceTableViewController.m */,
+				AF13232A1A430C0E003A7427 /* SpaceObject.h */,
+				AF13232B1A430C0E003A7427 /* SpaceObject.m */,
 				AF13228F1A41B6A0003A7427 /* Images.xcassets */,
 				AF1322911A41B6A0003A7427 /* LaunchScreen.xib */,
 				AF1322821A41B6A0003A7427 /* Supporting Files */,
@@ -99,8 +124,19 @@
 		AF1322821A41B6A0003A7427 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AF1323161A430BE5003A7427 /* Earth.jpg */,
+				AF1323171A430BE5003A7427 /* EinsteinRing.jpg */,
+				AF1323181A430BE5003A7427 /* Jupiter.jpg */,
+				AF1323191A430BE5003A7427 /* Mars.jpg */,
+				AF13231A1A430BE5003A7427 /* Mercury.jpg */,
+				AF13231B1A430BE5003A7427 /* Neptune.jpg */,
+				AF13231C1A430BE5003A7427 /* Orion.jpg */,
+				AF13231D1A430BE5003A7427 /* Saturn.jpg */,
+				AF13231E1A430BE5003A7427 /* Uranus.jpg */,
+				AF13231F1A430BE5003A7427 /* Venus.jpg */,
 				AF1322AB1A425561003A7427 /* AstronomicalData.h */,
 				AF1322AC1A425561003A7427 /* AstronomicalData.m */,
+				AF1323151A430BD8003A7427 /* New Group */,
 				AF1322831A41B6A0003A7427 /* Info.plist */,
 				AF1322841A41B6A0003A7427 /* main.m */,
 			);
@@ -122,6 +158,13 @@
 				AF13229D1A41B6A0003A7427 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF1323151A430BD8003A7427 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +247,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF1323201A430BE5003A7427 /* Earth.jpg in Resources */,
+				AF1323291A430BE5003A7427 /* Venus.jpg in Resources */,
+				AF1323241A430BE5003A7427 /* Mercury.jpg in Resources */,
+				AF1323271A430BE5003A7427 /* Saturn.jpg in Resources */,
+				AF1323281A430BE5003A7427 /* Uranus.jpg in Resources */,
 				AF13228E1A41B6A0003A7427 /* Main.storyboard in Resources */,
+				AF1323251A430BE5003A7427 /* Neptune.jpg in Resources */,
+				AF1323231A430BE5003A7427 /* Mars.jpg in Resources */,
 				AF1322931A41B6A0003A7427 /* LaunchScreen.xib in Resources */,
 				AF1322901A41B6A0003A7427 /* Images.xcassets in Resources */,
+				AF1323211A430BE5003A7427 /* EinsteinRing.jpg in Resources */,
+				AF1323221A430BE5003A7427 /* Jupiter.jpg in Resources */,
+				AF1323261A430BE5003A7427 /* Orion.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +281,7 @@
 				AF1322881A41B6A0003A7427 /* AppDelegate.m in Sources */,
 				AF1322851A41B6A0003A7427 /* main.m in Sources */,
 				AF1322AD1A425561003A7427 /* AstronomicalData.m in Sources */,
+				AF13232C1A430C0E003A7427 /* SpaceObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
